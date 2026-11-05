@@ -234,19 +234,3 @@ php artisan test --filter=StudentCrudTest
 - [x] Filter / Search query functionality
 
 ---
-
-## 🎓 University Submission Deliverables
-
-1. **Source Code** — Complete Laravel project (app, config, resources, routes, tests).
-2. **Full Database Backup** — `database/backup/crud_app_backup_2026-11-05.sql` (all 10 Laravel tables + the 6 sample students).
-3. **Students-Only SQL** — `student_management.sql` (students table schema + sample data; run migrations first).
-4. **ZIP Archive** — `student_management.zip`, freshly generated and excluding `.env`, `vendor/`, `node_modules/`, logs, and cache/test artifacts. Run `composer install` after extraction.
-5. **Documentation** — `README.md` (this file).
-
-### Verification Performed Before Packaging
-
-- All 13 feature tests pass (53 assertions).
-- The full backup was restored into a scratch database: 10 tables and 6 student records verified.
-- ZIP contents were checked for secrets, logs, caches, and absolute paths.
-
-# student_management_CRUD
